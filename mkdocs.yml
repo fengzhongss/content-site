@@ -7,8 +7,6 @@ theme:
   name: material
   language: zh
   font: false
-  icon:
-    logo: material/book-open-variant
   features:
     - navigation.top
     - navigation.indexes
@@ -30,11 +28,8 @@ theme:
         name: 切换浅色模式
 
 markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
+  - pymdownx.highlight
   - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
   - pymdownx.details
   - pymdownx.tasklist:
       custom_checkbox: true
@@ -56,10 +51,10 @@ copyright: Copyright &copy; 2026 知识付费工作室
 
 nav:
   - 首页: index.md
-  - 作品库: 作品库/index.md
-  - 素材库: 素材库/index.md
+  - 作品: 作品/index.md
+  - 选题: 选题/index.md
+  - 调研: 调研/index.md
 
 exclude_docs: |
   模板/
   .obsidian/
-  欢迎.md
