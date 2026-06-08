@@ -1,0 +1,78 @@
+site_name: 知识付费工作室
+site_description: 知识付费内容站
+site_url: https://aimarvin.de5.net
+site_author: fengzhongss
+
+theme:
+  name: material
+  language: zh
+  icon:
+    logo: material/book-open-variant
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - search.suggest
+    - toc.follow
+    - content.code.annotate
+    - content.tabs.link
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-night
+        name: 切换深色模式
+    - scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-sunny
+        name: 切换浅色模式
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
+  - toc:
+      permalink: true
+      title: 目录
+  - attr_list
+  - md_in_html
+  - footnotes
+
+plugins:
+  - search:
+      lang: zh
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/fengzhongss
+  generator: false
+
+copyright: Copyright &copy; 2026 知识付费工作室
+
+nav:
+  - 首页: index.md
+  - 作品库:
+    - 公众号文章: 作品库/公众号文章/
+    - 小红书文案: 作品库/小红书文案/
+    - 课程大纲: 作品库/课程大纲/
+    - SOP手册: 作品库/SOP手册/
+    - 绿皮火车攻略: 作品库/绿皮火车攻略/
+  - 素材库:
+    - 选题报告: 素材库/选题报告/
+    - 采集素材: 素材库/采集素材/
+
+exclude_docs: |
+  模板/
+  .obsidian/
