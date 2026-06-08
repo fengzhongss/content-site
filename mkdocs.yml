@@ -9,15 +9,11 @@ theme:
   icon:
     logo: material/book-open-variant
   features:
-    - navigation.tabs
-    - navigation.sections
     - navigation.top
-    - navigation.footer
     - search.highlight
     - search.suggest
     - toc.follow
     - content.code.annotate
-    - content.tabs.link
   palette:
     - scheme: default
       primary: deep purple
@@ -46,7 +42,6 @@ markdown_extensions:
       permalink: true
       title: 目录
   - attr_list
-  - md_in_html
   - footnotes
 
 plugins:
@@ -54,9 +49,6 @@ plugins:
       lang: zh
 
 extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/fengzhongss
   generator: false
 
 copyright: Copyright &copy; 2026 知识付费工作室
@@ -64,15 +56,11 @@ copyright: Copyright &copy; 2026 知识付费工作室
 nav:
   - 首页: index.md
   - 作品库:
-    - 公众号文章: 作品库/公众号文章/
-    - 小红书文案: 作品库/小红书文案/
-    - 课程大纲: 作品库/课程大纲/
-    - SOP手册: 作品库/SOP手册/
-    - 绿皮火车攻略: 作品库/绿皮火车攻略/
+    - 作品库/index.md
   - 素材库:
-    - 选题报告: 素材库/选题报告/
-    - 采集素材: 素材库/采集素材/
+    - 素材库/index.md
 
 exclude_docs: |
   模板/
   .obsidian/
+  欢迎.md
