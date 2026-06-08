@@ -6,14 +6,15 @@ site_author: fengzhongss
 theme:
   name: material
   language: zh
+  font: false
   icon:
     logo: material/book-open-variant
   features:
     - navigation.top
+    - navigation.indexes
     - search.highlight
     - search.suggest
     - toc.follow
-    - content.code.annotate
   palette:
     - scheme: default
       primary: deep purple
@@ -55,10 +56,8 @@ copyright: Copyright &copy; 2026 知识付费工作室
 
 nav:
   - 首页: index.md
-  - 作品库:
-    - 作品库/index.md
-  - 素材库:
-    - 素材库/index.md
+  - 作品库: 作品库/index.md
+  - 素材库: 素材库/index.md
 
 exclude_docs: |
   模板/
