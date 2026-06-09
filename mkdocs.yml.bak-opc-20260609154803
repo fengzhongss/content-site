@@ -59,13 +59,13 @@ nav:
   - 首页: index.md
   - AI板块: AI板块/index.md
   - 旅游板块: 旅游板块/index.md
+
+exclude_docs: |
+  模板/
+  .obsidian/
   - OPC板块:
-      - 总览: OPC板块/index.md
       - 选题简报: OPC板块/1-选题/OPC专题选题简报.md
       - 第①期调研: OPC板块/2-调研/第①期-OPC定义与服务内容调研报告.md
       - 第①期作品: OPC板块/3-作品/第①期-OPC定义与服务专题报告.md
       - 小红书版: OPC板块/3-作品/第①期-OPC定义与服务_小红书版.md
 
-exclude_docs: |
-  模板/
-  .obsidian/
