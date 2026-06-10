@@ -1,0 +1,79 @@
+site_name: 知识付费工作室
+site_description: 知识付费内容站
+site_url: https://aimarvin.de5.net
+site_author: fengzhongss
+
+theme:
+  name: material
+  language: zh
+  font: false
+  features:
+    - navigation.top
+    - navigation.indexes
+    - search.highlight
+    - search.suggest
+    - toc.follow
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-night
+        name: 切换深色模式
+    - scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-sunny
+        name: 切换浅色模式
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
+  - toc:
+      permalink: true
+      title: 目录
+  - attr_list
+  - footnotes
+
+plugins:
+  - search:
+      lang: zh
+
+extra:
+  generator: false
+
+extra_css:
+  - assets/calendar.css
+
+extra_javascript:
+  - assets/calendar.js
+
+copyright: Copyright &copy; 2026 知识付费工作室
+
+nav:
+  - 首页: index.md
+  - AI板块:
+      - 总览: AI板块/index.md
+      - AI技能变现:
+          - AI技能变现8种方法论: AI板块/AI技能变现/2-调研/AI技能变现8种方法论_案例调研报告.md
+          - HermesAgent赚钱10方向: AI板块/AI技能变现/2-调研/HermesAgent赚钱10方向_调研报告.md
+  - 旅游板块: 旅游板块/index.md
+  - 🛠️ 工具需求板块: 工具需求板块/index.md
+  - 📋 案例点评: 案例点评/index.md
+  - OPC板块:
+      - 总览: OPC板块/index.md
+      - 选题简报: OPC板块/1-选题/OPC专题选题简报.md
+      - 第①期调研: OPC板块/2-调研/第①期-OPC定义与服务内容调研报告.md
+      - 第②期调研: OPC板块/2-调研/第②期-OPC园区与社区生态调研报告.md
+      - 第③④期素材: OPC板块/2-调研/OPC日报_Karpathy视角_成功与失败案例调研素材.md
+      - 第①期作品: OPC板块/3-作品/第①期-OPC定义与服务专题报告.md
+      - 小红书版: OPC板块/3-作品/第①期-OPC定义与服务_小红书版.md
+
+exclude_docs: |
+  模板/
+  .obsidian/
