@@ -473,8 +473,20 @@
       "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Built-a-free-live-hackathons-alert-bot-150-subscribers-in-fi_1"
     },
     {
+      "title": "Reddit工具需求采集_选题简报",
+      "path": "工具需求板块/1-选题/Reddit工具需求采集_选题简报"
+    },
+    {
+      "title": "7个案发现场_参考素材",
+      "path": "工具需求板块/2-调研/7个案发现场_参考素材"
+    },
+    {
       "title": "index",
       "path": "OPC板块/index"
+    },
+    {
+      "title": "第②期_质检记录",
+      "path": "OPC板块/1-选题/第②期_质检记录"
     },
     {
       "title": "OPC第②期选题简报_园区与社区",
@@ -487,6 +499,10 @@
     {
       "title": "日报选题源_2026-06-10",
       "path": "OPC板块/1-选题/日报选题源_2026-06-10"
+    },
+    {
+      "title": "第②期-OPC园区与社区生态调研报告",
+      "path": "OPC板块/2-调研/第②期-OPC园区与社区生态调研报告"
     }
   ],
   "2026-06-09": [
