@@ -1,0 +1,59 @@
+/* 右下角浮动日历 */
+#cal-widget {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  width: 280px;
+  background: var(--md-default-bg-color, #fff);
+  border: 1px solid var(--md-default-fg-color--lightest, #e5e7eb);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+  padding: 12px;
+  font-size: 13px;
+  display: none;
+}
+
+#cal-widget.cal-open { display: block; }
+
+#cal-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1001;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background: var(--md-primary-fg-color, #7c3aed);
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#cal-toggle:hover { opacity: 0.85; }
+#cal-toggle.cal-open { display: none; }
+
+.cal-w-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.cal-w-header button { background: none; border: 1px solid var(--md-default-fg-color--lightest); border-radius: 4px; padding: 2px 8px; cursor: pointer; font-size: 13px; }
+.cal-w-title { font-weight: 600; font-size: 14px; }
+.cal-w-grid { width: 100%; border-collapse: collapse; }
+.cal-w-grid th { text-align: center; padding: 3px 0; font-size: 11px; color: var(--md-default-fg-color--light); font-weight: 500; }
+.cal-w-cell { text-align: center; padding: 2px 0; cursor: default; font-size: 12px; position: relative; }
+.cal-w-cell.cal-w-has { cursor: pointer; font-weight: 600; color: var(--md-primary-fg-color); }
+.cal-w-cell.cal-w-has:hover { background: var(--md-accent-fg-color--transparent); border-radius: 4px; }
+.cal-w-dot { display: block; width: 4px; height: 4px; background: var(--md-primary-fg-color); border-radius: 50%; margin: 1px auto 0; }
+.cal-w-today .cal-w-num { background: var(--md-primary-fg-color); color: #fff; border-radius: 50%; padding: 1px 6px; }
+.cal-w-empty { border: none; }
+.cal-w-popup { position: absolute; bottom: calc(100% + 10px); right: 0; width: 220px; background: var(--md-default-bg-color); border: 1px solid var(--md-default-fg-color--lightest); border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); padding: 10px; font-size: 12px; display: none; z-index: 1002; }
+.cal-w-popup h4 { margin: 0 0 6px; font-size: 13px; color: var(--md-primary-fg-color); }
+.cal-w-popup a { display: block; padding: 3px 0; text-decoration: none; }
+.cal-w-popup a:hover { text-decoration: underline; }
+.cal-w-popup-close { float: right; cursor: pointer; color: #999; font-size: 14px; }
+
+/* 隐藏左侧导航栏顶部的站点标题，只留导航项 */
+.md-nav__title[for="__drawer"] { display: none !important; }
