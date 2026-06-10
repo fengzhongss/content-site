@@ -37,6 +37,438 @@
       "path": "AI板块/AI技能变现/2-调研/HermesAgent赚钱10方向_调研报告"
     },
     {
+      "title": "My-12-year-old-built-an-AI-chess-roast-app-now-he-s-building_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/My-12-year-old-built-an-AI-chess-roast-app-now-he-s-building_1"
+    },
+    {
+      "title": "Chrome-extension-that-lets-you-right-click-any-highlighted-t_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Chrome-extension-that-lets-you-right-click-any-highlighted-t_1"
+    },
+    {
+      "title": "Is-there-a-Chrome-extension-that-lets-me-assign-custom-short_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Is-there-a-Chrome-extension-that-lets-me-assign-custom-short_1"
+    },
+    {
+      "title": "WEBAPP-Phase-One-of-Distributed-Direct-Democracy-an-app-that",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/WEBAPP-Phase-One-of-Distributed-Direct-Democracy-an-app-that"
+    },
+    {
+      "title": "Stopwatch-Timer-Hybrid-App-Needed",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Stopwatch-Timer-Hybrid-App-Needed"
+    },
+    {
+      "title": "Soap-opera-or-teen-drama-based-on-sitting-politicians-and-th",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Soap-opera-or-teen-drama-based-on-sitting-politicians-and-th"
+    },
+    {
+      "title": "Would-you-use-an-anonymous-message-in-a-bottle-app",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Would-you-use-an-anonymous-message-in-a-bottle-app"
+    },
+    {
+      "title": "Built-a-YouTube-to-GIF-Chrome-extension-to-scratch-my-own-it",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Built-a-YouTube-to-GIF-Chrome-extension-to-scratch-my-own-it"
+    },
+    {
+      "title": "I-built-a-personal-finance-desktop-app-to-track-my-stocks-MF",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/I-built-a-personal-finance-desktop-app-to-track-my-stocks-MF"
+    },
+    {
+      "title": "What-mobile-apps-do-you-recommend-for-price-tracking-with-pu",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/What-mobile-apps-do-you-recommend-for-price-tracking-with-pu"
+    },
+    {
+      "title": "I-built-an-AI-tool-to-automate-my-TikTok-Reels-workflow-Free_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/I-built-an-AI-tool-to-automate-my-TikTok-Reels-workflow-Free_1"
+    },
+    {
+      "title": "Mobile-App-Idea",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Mobile-App-Idea"
+    },
+    {
+      "title": "SWE-looking-to-build-a-micro-API-What-manual-workflow-or-mis",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/SWE-looking-to-build-a-micro-API-What-manual-workflow-or-mis"
+    },
+    {
+      "title": "Spotify-compatibility-webapp-that-matches-you-with-strangers",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Spotify-compatibility-webapp-that-matches-you-with-strangers"
+    },
+    {
+      "title": "Can-Someone-Make-These-Surfboard-Shaping-Calipers_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Can-Someone-Make-These-Surfboard-Shaping-Calipers_1"
+    },
+    {
+      "title": "In-some-unusual-circumstances-or-locations-transporting-cert",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/In-some-unusual-circumstances-or-locations-transporting-cert"
+    },
+    {
+      "title": "Is-there-a-good-up-to-date-site-for-finding-open-source-alte",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Is-there-a-good-up-to-date-site-for-finding-open-source-alte"
+    },
+    {
+      "title": "Please-validate-my-SaaS-idea",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Please-validate-my-SaaS-idea"
+    },
+    {
+      "title": "I-made-a-free-Chrome-extension-to-download-images-videos-fro_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/I-made-a-free-Chrome-extension-to-download-images-videos-fro_1"
+    },
+    {
+      "title": "Built-a-YouTube-to-GIF-Chrome-extension-to-scratch-my-own-it_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Built-a-YouTube-to-GIF-Chrome-extension-to-scratch-my-own-it_1"
+    },
+    {
+      "title": "Script-to-Automate-Scheduling-Tiktok-Posts",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Script-to-Automate-Scheduling-Tiktok-Posts"
+    },
+    {
+      "title": "Built-an-AI-that-debugs-my-SaaS-for-me_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Built-an-AI-that-debugs-my-SaaS-for-me_1"
+    },
+    {
+      "title": "Rule-based-chatbot-site",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Rule-based-chatbot-site"
+    },
+    {
+      "title": "Simple-music-supervision-app-web-app",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Simple-music-supervision-app-web-app"
+    },
+    {
+      "title": "What-mobile-apps-do-you-recommend-for-price-tracking-with-pu_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/What-mobile-apps-do-you-recommend-for-price-tracking-with-pu_1"
+    },
+    {
+      "title": "Wananimate-native-workflow-v-1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Wananimate-native-workflow-v-1"
+    },
+    {
+      "title": "AI-playlist-creation-from-my-description_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/AI-playlist-creation-from-my-description_1"
+    },
+    {
+      "title": "A-site-that-uses-ai-to-continuously-assess-rank-the-complete",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/A-site-that-uses-ai-to-continuously-assess-rank-the-complete"
+    },
+    {
+      "title": "Chatbot-app-that-pays-you-back-money-every-time-it-makes-a-m",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Chatbot-app-that-pays-you-back-money-every-time-it-makes-a-m"
+    },
+    {
+      "title": "Building-a-chat-with-Database-web-app",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Building-a-chat-with-Database-web-app"
+    },
+    {
+      "title": "Looking-for-Chrome-extension-ideas-help-me-find-something-wo",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Looking-for-Chrome-extension-ideas-help-me-find-something-wo"
+    },
+    {
+      "title": "AI-playlist-creation-from-my-description",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/AI-playlist-creation-from-my-description"
+    },
+    {
+      "title": "Built-a-free-live-hackathons-alert-bot-150-subscribers-in-fi",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Built-a-free-live-hackathons-alert-bot-150-subscribers-in-fi"
+    },
+    {
+      "title": "Wananimate-native-workflow-v-1_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Wananimate-native-workflow-v-1_1"
+    },
+    {
+      "title": "A-reverse-AI-chatbot-costumer-support-assistant",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/A-reverse-AI-chatbot-costumer-support-assistant"
+    },
+    {
+      "title": "The-most-underrated-automation-opportunity-companies-still-h",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/The-most-underrated-automation-opportunity-companies-still-h"
+    },
+    {
+      "title": "Webapp-Idea-AI-Powered-Chart-Pattern-Scanner-for-Traders",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Webapp-Idea-AI-Powered-Chart-Pattern-Scanner-for-Traders"
+    },
+    {
+      "title": "Will-you-pay-for-a-saas-that-help-saas-money-control",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Will-you-pay-for-a-saas-that-help-saas-money-control"
+    },
+    {
+      "title": "Enterprise-SaaS-Founders-Are-Security-Questionnaires-Still-K",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Enterprise-SaaS-Founders-Are-Security-Questionnaires-Still-K"
+    },
+    {
+      "title": "A-lightweight-client-only-Calendar-web-application-All-data-_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/A-lightweight-client-only-Calendar-web-application-All-data-_1"
+    },
+    {
+      "title": "web-app-idea-for-entrepreneurs-need-feedback",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/web-app-idea-for-entrepreneurs-need-feedback"
+    },
+    {
+      "title": "I-built-a-personal-finance-desktop-app-to-track-my-stocks-MF_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/I-built-a-personal-finance-desktop-app-to-track-my-stocks-MF_1"
+    },
+    {
+      "title": "Just-finish-a-mobile-app-to-help-find-parking_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Just-finish-a-mobile-app-to-help-find-parking_1"
+    },
+    {
+      "title": "I-saw-many-posts-here-asking-for-automatic-file-organization_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/I-saw-many-posts-here-asking-for-automatic-file-organization_1"
+    },
+    {
+      "title": "Webapp-Idea-AI-Powered-Chart-Pattern-Scanner-for-Traders_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Webapp-Idea-AI-Powered-Chart-Pattern-Scanner-for-Traders_1"
+    },
+    {
+      "title": "Need-to-validate-a-simple-micro-SaaS-idea-Excel-Trello-Where",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Need-to-validate-a-simple-micro-SaaS-idea-Excel-Trello-Where"
+    },
+    {
+      "title": "I-love-automating-PC-workflows-what-repetitive-tasks-do-you-",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/I-love-automating-PC-workflows-what-repetitive-tasks-do-you-"
+    },
+    {
+      "title": "The-most-underrated-automation-opportunity-companies-still-h_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/The-most-underrated-automation-opportunity-companies-still-h_1"
+    },
+    {
+      "title": "A-site-that-uses-ai-to-continuously-assess-rank-the-complete_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/A-site-that-uses-ai-to-continuously-assess-rank-the-complete_1"
+    },
+    {
+      "title": "Real-Time-AI-Interaction-Is-It-More-Than-Just-Chatbots_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Real-Time-AI-Interaction-Is-It-More-Than-Just-Chatbots_1"
+    },
+    {
+      "title": "I-built-a-voice-Not-an-app-not-a-SaaS-my-actual-voice-And-50",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/I-built-a-voice-Not-an-app-not-a-SaaS-my-actual-voice-And-50"
+    },
+    {
+      "title": "Browser-extension-SaaS-to-auto-block-repost-offenders-on-Red",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Browser-extension-SaaS-to-auto-block-repost-offenders-on-Red"
+    },
+    {
+      "title": "Rule-based-chatbot-site_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Rule-based-chatbot-site_1"
+    },
+    {
+      "title": "SWE-looking-to-build-a-micro-API-What-manual-workflow-or-mis_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/SWE-looking-to-build-a-micro-API-What-manual-workflow-or-mis_1"
+    },
+    {
+      "title": "Browser-Extension-for-Improving-Etsy-Usability-and-Functiona",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Browser-Extension-for-Improving-Etsy-Usability-and-Functiona"
+    },
+    {
+      "title": "Will-you-pay-for-a-redefined-feedback-collection-saas_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Will-you-pay-for-a-redefined-feedback-collection-saas_1"
+    },
+    {
+      "title": "Would-you-use-an-app-that-matches-you-with-nearby-profession",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Would-you-use-an-app-that-matches-you-with-nearby-profession"
+    },
+    {
+      "title": "Building-a-chat-with-Database-web-app_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Building-a-chat-with-Database-web-app_1"
+    },
+    {
+      "title": "An-extension-like-SponsorBlock-for-Reddit-where-bots-are-ide_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/An-extension-like-SponsorBlock-for-Reddit-where-bots-are-ide_1"
+    },
+    {
+      "title": "Just-finish-a-mobile-app-to-help-find-parking",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Just-finish-a-mobile-app-to-help-find-parking"
+    },
+    {
+      "title": "Chrome-extension-that-lets-you-right-click-any-highlighted-t",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Chrome-extension-that-lets-you-right-click-any-highlighted-t"
+    },
+    {
+      "title": "Pitch-your-web-app-and-I-ll-build-it",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Pitch-your-web-app-and-I-ll-build-it"
+    },
+    {
+      "title": "Need-to-validate-a-simple-micro-SaaS-idea-Excel-Trello-Where_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Need-to-validate-a-simple-micro-SaaS-idea-Excel-Trello-Where_1"
+    },
+    {
+      "title": "A-tool-that-gets-you-discounts-on-SaaS-s_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/A-tool-that-gets-you-discounts-on-SaaS-s_1"
+    },
+    {
+      "title": "A-chrome-extension-that-helps-you-find-amazon-alternatives-a_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/A-chrome-extension-that-helps-you-find-amazon-alternatives-a_1"
+    },
+    {
+      "title": "My-12-year-old-built-an-AI-chess-roast-app-now-he-s-building",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/My-12-year-old-built-an-AI-chess-roast-app-now-he-s-building"
+    },
+    {
+      "title": "Can-Someone-Make-These-Surfboard-Shaping-Calipers",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Can-Someone-Make-These-Surfboard-Shaping-Calipers"
+    },
+    {
+      "title": "A-chrome-extension-that-helps-you-find-amazon-alternatives-a",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/A-chrome-extension-that-helps-you-find-amazon-alternatives-a"
+    },
+    {
+      "title": "Script-to-add-past-2-days-to-top-options-on-subs-for-old-red",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Script-to-add-past-2-days-to-top-options-on-subs-for-old-red"
+    },
+    {
+      "title": "My-Chrome-extension-Chromapick-Is-Finally-Live_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/My-Chrome-extension-Chromapick-Is-Finally-Live_1"
+    },
+    {
+      "title": "I-m-Building-a-Tool-That-Turns-Website-Into-a-Smart-Chatbot-",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/I-m-Building-a-Tool-That-Turns-Website-Into-a-Smart-Chatbot-"
+    },
+    {
+      "title": "Built-an-AI-that-debugs-my-SaaS-for-me",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Built-an-AI-that-debugs-my-SaaS-for-me"
+    },
+    {
+      "title": "Will-you-pay-for-a-redefined-feedback-collection-saas",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Will-you-pay-for-a-redefined-feedback-collection-saas"
+    },
+    {
+      "title": "An-evolution-website-which-shows-a-fish-and-when-a-sliding-b",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/An-evolution-website-which-shows-a-fish-and-when-a-sliding-b"
+    },
+    {
+      "title": "WEBAPP-Phase-One-of-Distributed-Direct-Democracy-an-app-that_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/WEBAPP-Phase-One-of-Distributed-Direct-Democracy-an-app-that_1"
+    },
+    {
+      "title": "A-pillory-database-including-and-about-karma-farming-bots-an_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/A-pillory-database-including-and-about-karma-farming-bots-an_1"
+    },
+    {
+      "title": "An-extension-like-SponsorBlock-for-Reddit-where-bots-are-ide",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/An-extension-like-SponsorBlock-for-Reddit-where-bots-are-ide"
+    },
+    {
+      "title": "Real-Time-AI-Interaction-Is-It-More-Than-Just-Chatbots",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Real-Time-AI-Interaction-Is-It-More-Than-Just-Chatbots"
+    },
+    {
+      "title": "My-automation-tool-idea_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/My-automation-tool-idea_1"
+    },
+    {
+      "title": "Enterprise-SaaS-Founders-Are-Security-Questionnaires-Still-K_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Enterprise-SaaS-Founders-Are-Security-Questionnaires-Still-K_1"
+    },
+    {
+      "title": "A-pillory-database-including-and-about-karma-farming-bots-an",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/A-pillory-database-including-and-about-karma-farming-bots-an"
+    },
+    {
+      "title": "My-Chrome-extension-Chromapick-Is-Finally-Live",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/My-Chrome-extension-Chromapick-Is-Finally-Live"
+    },
+    {
+      "title": "Will-you-pay-for-a-saas-that-help-saas-money-control_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Will-you-pay-for-a-saas-that-help-saas-money-control_1"
+    },
+    {
+      "title": "Would-you-use-an-app-that-matches-you-with-nearby-profession_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Would-you-use-an-app-that-matches-you-with-nearby-profession_1"
+    },
+    {
+      "title": "Would-you-use-an-anonymous-message-in-a-bottle-app_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Would-you-use-an-anonymous-message-in-a-bottle-app_1"
+    },
+    {
+      "title": "I-m-a-developer-looking-for-my-next-side-project-What-Chrome",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/I-m-a-developer-looking-for-my-next-side-project-What-Chrome"
+    },
+    {
+      "title": "Spotify-compatibility-webapp-that-matches-you-with-strangers_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Spotify-compatibility-webapp-that-matches-you-with-strangers_1"
+    },
+    {
+      "title": "I-made-a-desktop-app-that-helps-me-write-blogs-with-AI-assis",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/I-made-a-desktop-app-that-helps-me-write-blogs-with-AI-assis"
+    },
+    {
+      "title": "Last-Chance-but-Emo-Kapi-and-Nyan-Cat-sing-it-suggestion_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Last-Chance-but-Emo-Kapi-and-Nyan-Cat-sing-it-suggestion_1"
+    },
+    {
+      "title": "A-lightweight-client-only-Calendar-web-application-All-data-",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/A-lightweight-client-only-Calendar-web-application-All-data-"
+    },
+    {
+      "title": "I-made-a-free-Chrome-extension-to-download-images-videos-fro",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/I-made-a-free-Chrome-extension-to-download-images-videos-fro"
+    },
+    {
+      "title": "Is-there-a-Chrome-extension-that-lets-me-assign-custom-short",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Is-there-a-Chrome-extension-that-lets-me-assign-custom-short"
+    },
+    {
+      "title": "CottageLaw-Bot",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/CottageLaw-Bot"
+    },
+    {
+      "title": "Making-a-chrome-extension-which-offers-real-time-help-on-you",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Making-a-chrome-extension-which-offers-real-time-help-on-you"
+    },
+    {
+      "title": "I-saw-many-posts-here-asking-for-automatic-file-organization",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/I-saw-many-posts-here-asking-for-automatic-file-organization"
+    },
+    {
+      "title": "Last-Chance-but-Emo-Kapi-and-Nyan-Cat-sing-it-suggestion",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Last-Chance-but-Emo-Kapi-and-Nyan-Cat-sing-it-suggestion"
+    },
+    {
+      "title": "Smarter-long-term-memory-version-of-Google-Alerts-nbot-syft-_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Smarter-long-term-memory-version-of-Google-Alerts-nbot-syft-_1"
+    },
+    {
+      "title": "A-desktop-app-that-lets-you-semantically-search-your-own-fil",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/A-desktop-app-that-lets-you-semantically-search-your-own-fil"
+    },
+    {
+      "title": "I-m-a-developer-looking-for-my-next-side-project-What-Chrome_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/I-m-a-developer-looking-for-my-next-side-project-What-Chrome_1"
+    },
+    {
+      "title": "A-tool-that-gets-you-discounts-on-SaaS-s",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/A-tool-that-gets-you-discounts-on-SaaS-s"
+    },
+    {
+      "title": "I-built-a-voice-Not-an-app-not-a-SaaS-my-actual-voice-And-50_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/I-built-a-voice-Not-an-app-not-a-SaaS-my-actual-voice-And-50_1"
+    },
+    {
+      "title": "Smarter-long-term-memory-version-of-Google-Alerts-nbot-syft-",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Smarter-long-term-memory-version-of-Google-Alerts-nbot-syft-"
+    },
+    {
+      "title": "I-built-an-AI-tool-to-automate-my-TikTok-Reels-workflow-Free",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/I-built-an-AI-tool-to-automate-my-TikTok-Reels-workflow-Free"
+    },
+    {
+      "title": "My-automation-tool-idea",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/My-automation-tool-idea"
+    },
+    {
+      "title": "A-desktop-app-that-lets-you-semantically-search-your-own-fil_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/A-desktop-app-that-lets-you-semantically-search-your-own-fil_1"
+    },
+    {
+      "title": "I-love-automating-PC-workflows-what-repetitive-tasks-do-you-_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/I-love-automating-PC-workflows-what-repetitive-tasks-do-you-_1"
+    },
+    {
+      "title": "Is-there-a-good-up-to-date-site-for-finding-open-source-alte_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Is-there-a-good-up-to-date-site-for-finding-open-source-alte_1"
+    },
+    {
+      "title": "Built-a-free-live-hackathons-alert-bot-150-subscribers-in-fi_1",
+      "path": "通用板块/素材库/Reddit采集/SomethingMakeThis/Built-a-free-live-hackathons-alert-bot-150-subscribers-in-fi_1"
+    },
+    {
       "title": "index",
       "path": "OPC板块/index"
     },
