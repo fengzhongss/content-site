@@ -1,0 +1,137 @@
+/* ========== Huashu-Design 启发的品牌样式 ========== */
+/* 核心原则：反AI slop、品牌一致性、克制设计 */
+
+/* 首页 Hero 区域 */
+.landing-hero {
+  text-align: center;
+  padding: 3rem 0 2rem;
+  position: relative;
+}
+
+.landing-hero::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--md-primary-fg-color, #673AB7);
+  margin: 1.5rem auto 0;
+  border-radius: 2px;
+}
+
+.landing-hero h1 {
+  font-size: 2.8rem;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin: 0 0 0.6rem;
+  color: var(--md-primary-fg-color, #673AB7);
+}
+
+.landing-hero .tagline {
+  font-size: 1.1rem;
+  color: var(--md-default-fg-color--light, rgba(0,0,0,0.54));
+  font-weight: 400;
+  max-width: 540px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* 板块卡片网格 */
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.25rem;
+  padding: 2rem 0 1rem;
+}
+
+.section-card {
+  background: var(--md-default-bg-color, #fff);
+  border: 1px solid var(--md-default-fg-color--lightest, rgba(0,0,0,0.07));
+  border-radius: 6px;
+  padding: 1.5rem 1.5rem 1.75rem;
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+  position: relative;
+  /* 无左border accent — 反slop */
+  /* 无圆角卡片+左彩色border accent 就是 slop 特征之一 */
+}
+
+.section-card:hover {
+  border-color: var(--md-primary-fg-color, #673AB7);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+  transform: translateY(-2px);
+}
+
+.section-card .card-icon {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  line-height: 1;
+  /* 使用 emoji 是有意的—这是品牌识别符号，不是装饰性 icon */
+}
+
+.section-card h3 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0 0 0.4rem;
+  color: var(--md-primary-fg-color, #673AB7);
+}
+
+.section-card p {
+  font-size: 0.9rem;
+  color: var(--md-default-fg-color--light, rgba(0,0,0,0.54));
+  line-height: 1.55;
+  margin: 0 0 0.75rem;
+}
+
+.section-card .card-link {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--md-primary-fg-color, #673AB7);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  opacity: 0.7;
+  transition: opacity 0.2s, gap 0.2s;
+}
+
+.section-card:hover .card-link {
+  opacity: 1;
+  gap: 8px;
+}
+
+/* Stats 区域 — 只有真实数据才展示，不编造 */
+.landing-stats {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--md-default-fg-color--lightest, rgba(0,0,0,0.07));
+  margin-top: 1rem;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-item .number {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: var(--md-primary-fg-color, #673AB7);
+  letter-spacing: -0.02em;
+}
+
+.stat-item .label {
+  font-size: 0.8rem;
+  color: var(--md-default-fg-color--light, rgba(0,0,0,0.54));
+  margin-top: 0.15rem;
+}
+
+/* 响应式 */
+@media (max-width: 768px) {
+  .landing-hero h1 { font-size: 2rem; }
+  .section-grid { grid-template-columns: 1fr; }
+  .landing-stats { flex-wrap: wrap; gap: 1rem; }
+}
+
+/* 反 AI slop: 没有紫色渐变背景、没有装饰性图标、没有无意义的数据 */
+/* 所有设计元素都要 earn its place */

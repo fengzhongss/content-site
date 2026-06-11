@@ -49,6 +49,7 @@ extra:
 
 extra_css:
   - assets/calendar.css
+  - assets/extra.css
 
 extra_javascript:
   - assets/calendar.js
@@ -89,10 +90,10 @@ nav:
   - 📋 案例点评:
       - 总览: 案例点评/index.md
       - 📰 日报归档: 案例点评/日报/index.md
+      - 📰 日报精选 (6/10): 案例点评/日报/日报选题源_2026-06-10.md
   - OPC板块:
       - 总览: OPC板块/index.md
       - 选题简报: OPC板块/1-选题/OPC专题选题简报.md
-      - 📰 日报精选 (6/10): OPC板块/1-选题/日报选题源_2026-06-10.md
       - 第①期调研: OPC板块/2-调研/第①期-OPC定义与服务内容调研报告.md
       - 第②期调研: OPC板块/2-调研/第②期-OPC园区与社区生态调研报告.md
       - 第①期作品: OPC板块/3-作品/第①期-OPC定义与服务专题报告.md
