@@ -7,7 +7,7 @@ function init(){
   window.__cp=()=>{curDate.setMonth(curDate.getMonth()-1);render()};
   window.__cn=()=>{curDate.setMonth(curDate.getMonth()+1);render()};
   window.__cc=()=>{let p=document.getElementById('cwp');if(p)p.style.display='none'};
-  fetch('/assets/calendar-data.json').then(r=>r.ok?r.json():null).then(d=>{if(d){data=d;render()}}).catch(()=>{});
+  fetch('/assets/calendar-data.json?v='+Math.floor(Date.now()/300000)).then(r=>r.ok?r.json():null).then(d=>{if(d){data=d;render()}}).catch(()=>{});
   document.addEventListener('click',function(e){let w=document.getElementById('cal-widget'),b=document.getElementById('cal-toggle');if(!w||!b)return;if(w.classList.contains('cal-open')&&!w.contains(e.target)&&!b.contains(e.target)){closeCal()}});
 }
 function render(){
