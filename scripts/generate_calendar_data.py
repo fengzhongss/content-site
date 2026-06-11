@@ -7,18 +7,24 @@ VAULT = "/home/yunmai/知识付费工作室"
 calendar_data = {}
 date_pattern = re.compile(r'【?(\d{4})[-年](\d{1,2})[-月](\d{1,2})[日】]?')
 
+# Only scan directories that get deployed to the website
+deployed_roots = ["AI板块", "旅游板块", "OPC板块", "案例点评", "工具需求板块"]
+
 for root, dirs, files in os.walk(VAULT):
+    # Determine if this path is under a deployed root
+    rel_from_vault = os.path.relpath(root, VAULT)
+    parts = rel_from_vault.split(os.sep)
+    top_dir = parts[0] if parts[0] and parts[0] != "." else ""
+    if top_dir not in deployed_roots:
+        continue
+
     for f in files:
         if not f.endswith(".md") or f.startswith("."):
             continue
-        # Skip excluded paths
-        rel_from_vault = os.path.relpath(os.path.join(root, f), VAULT)
-        if rel_from_vault.startswith("模板") or rel_from_vault.startswith(".obsidian"):
-            continue
         full_path = os.path.join(root, f)
 
-        # Skip 欢迎.md
-        if f == "欢迎.md":
+        # Skip index.md and welcome pages
+        if f in ("index.md", "欢迎.md"):
             continue
 
         m = date_pattern.search(f)
@@ -48,9 +54,11 @@ for root, dirs, files in os.walk(VAULT):
         if not title:
             title = file_part.replace(".md", "")
 
+        section = top_dir if top_dir in deployed_roots else "其他"
+
         if date_str not in calendar_data:
             calendar_data[date_str] = []
-        calendar_data[date_str].append({"title": title, "path": url_path})
+        calendar_data[date_str].append({"title": title, "path": url_path, "section": section})
 
 out_dir = "/tmp/content-site/docs/assets"
 os.makedirs(out_dir, exist_ok=True)
