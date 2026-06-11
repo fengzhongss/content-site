@@ -132,8 +132,18 @@
   ],
   "2026-06-11": [
     {
+      "title": "OPC日报_Karpathy视角_案例点评",
+      "path": "案例点评/日报/OPC日报_Karpathy视角_案例点评",
+      "section": "案例点评"
+    },
+    {
       "title": "webhook推送",
       "path": "案例点评/日报/webhook推送",
+      "section": "案例点评"
+    },
+    {
+      "title": "OPC日报_Karpathy视角_成功与失败案例",
+      "path": "案例点评/日报/OPC日报_Karpathy视角_成功与失败案例",
       "section": "案例点评"
     },
     {
