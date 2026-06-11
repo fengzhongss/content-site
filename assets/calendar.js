@@ -28,7 +28,9 @@ window.__ck=function(ds){
   let a=data[ds],pop=document.getElementById('cwp');
   if(!a||!a.length){pop.style.display='none';return}
   document.getElementById('cwpd').textContent=ds;
-  let l='';for(let x of a)l+=`<a href="/${x.path}">${x.title}</a>`;
+  let sections={};for(let x of a){let s=x.section||'其他';if(!sections[s])sections[s]=[];sections[s].push(x)}
+  let l='';let sectionOrder=['AI板块','旅游板块','工具需求板块','案例点评','OPC板块','其他'];
+  for(let s of sectionOrder){if(!sections[s])continue;l+=`<strong style="display:block;margin:6px 0 2px;font-size:11px;color:var(--md-default-fg-color--light)">${s}</strong>`;for(let x of sections[s])l+=`<a href="/${x.path}">${x.title}</a>`}
   document.getElementById('cwpl').innerHTML=l;pop.style.display='block';
   if(activePopup!==ds){document.addEventListener('click',function e2(ev){let p=document.getElementById('cwp');if(p&&!p.contains(ev.target)&&ev.target.id!=='cal-toggle'){p.style.display='none';activePopup=null;document.removeEventListener('click',e2)}},{once:true});activePopup=ds}
 };
