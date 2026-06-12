@@ -7,3 +7,5 @@
 - [OPC日报_Karpathy视角_案例点评](OPC日报_Karpathy视角_案例点评.md)
 - [webhook推送](webhook推送.md)
 - [【2026-06-10】_OPC日报_Karpathy视角_案例点评](【2026-06-10】_OPC日报_Karpathy视角_案例点评.md)
+- [公众号OPC7问_Paul Graham视角_案例点评](公众号OPC7问_Paul Graham视角_案例点评.md)
+- [公众号OPC7问_原文素材](公众号OPC7问_原文素材.md)
