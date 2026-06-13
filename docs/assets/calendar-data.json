@@ -16,6 +16,13 @@
       "section": "AI板块"
     }
   ],
+  "2026-06-13": [
+    {
+      "title": "AI Agent 知识付费+多平台内容",
+      "path": "AI板块/AI Agent知识付费/作品/AI Agent 知识付费+多平台内容",
+      "section": "AI板块"
+    }
+  ],
   "2026-06-06": [
     {
       "title": "一人公司AI Agent获客指南",
@@ -130,6 +137,38 @@
       "section": "OPC板块"
     }
   ],
+  "2026-06-12": [
+    {
+      "title": "OPC7问_Paul Graham视角_案例点评",
+      "path": "案例点评/日报/OPC7问_Paul Graham视角_案例点评",
+      "section": "案例点评"
+    },
+    {
+      "title": "公众号OPC7问_原文素材",
+      "path": "案例点评/日报/公众号OPC7问_原文素材",
+      "section": "案例点评"
+    },
+    {
+      "title": "公众号OPC7问_Paul Graham视角_案例点评",
+      "path": "案例点评/日报/公众号OPC7问_Paul Graham视角_案例点评",
+      "section": "案例点评"
+    },
+    {
+      "title": "OPC7问_原文素材",
+      "path": "案例点评/日报/OPC7问_原文素材",
+      "section": "案例点评"
+    },
+    {
+      "title": "99%搞错OPC定义_公众号原文",
+      "path": "OPC板块/2-调研/99%搞错OPC定义_公众号原文",
+      "section": "OPC板块"
+    },
+    {
+      "title": "99%搞错OPC定义_原文",
+      "path": "OPC板块/2-调研/99%搞错OPC定义_原文",
+      "section": "OPC板块"
+    }
+  ],
   "2026-06-11": [
     {
       "title": "OPC日报_Karpathy视角_案例点评",
@@ -175,23 +214,6 @@
       "title": "绿皮火车攻略-西南调研报告",
       "path": "旅游板块/绿皮火车攻略/调研/绿皮火车攻略-西南调研报告",
       "section": "旅游板块"
-    }
-  ],
-  "2026-06-12": [
-    {
-      "title": "公众号OPC7问_原文素材",
-      "path": "案例点评/日报/公众号OPC7问_原文素材",
-      "section": "案例点评"
-    },
-    {
-      "title": "公众号OPC7问_Paul Graham视角_案例点评",
-      "path": "案例点评/日报/公众号OPC7问_Paul Graham视角_案例点评",
-      "section": "案例点评"
-    },
-    {
-      "title": "99%搞错OPC定义_公众号原文",
-      "path": "OPC板块/2-调研/99%搞错OPC定义_公众号原文",
-      "section": "OPC板块"
     }
   ],
   "2026-06-09": [
