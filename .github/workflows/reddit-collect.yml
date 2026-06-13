@@ -1,0 +1,63 @@
+name: Reddit Daily Collection
+
+on:
+  schedule:
+    # 每天 UTC 00:00 = 北京时间 08:00
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # 支持手动触发
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Run Reddit collector
+        id: collect
+        run: |
+          python scripts/reddit-collect.py 2>&1
+        continue-on-error: true
+      
+      - name: Check for new data
+        id: check
+        run: |
+          if ls _reddit_data/SomethingMakeThis/*.md 2>/dev/null; then
+            echo "new_data=true" >> $GITHUB_OUTPUT
+            count=$(ls _reddit_data/SomethingMakeThis/*.md 2>/dev/null | wc -l)
+            echo "count=$count" >> $GITHUB_OUTPUT
+            echo "📡 采集到 $count 篇新帖子"
+          else
+            echo "new_data=false" >> $GITHUB_OUTPUT
+            echo "⏸️  无新帖子"
+          fi
+      
+      - name: Generate daily report
+        if: steps.check.outputs.new_data == 'true'
+        run: |
+          cat > _reddit_data/reddit_report_$(date +%Y-%m-%d).md << 'EOF'
+          # 📡 Reddit 信息采集日报 — $(date +%Y年%m月%d日)
+          
+          共 ${{ steps.check.outputs.count }} 篇新帖子
+          EOF
+      
+      - name: Commit and push
+        run: |
+          git config user.name "reddit-collector[bot]"
+          git config user.email "reddit-collector@users.noreply.github.com"
+          git add _reddit_data/
+          if git diff --staged --quiet; then
+            echo "⏸️  无变化，跳过提交"
+          else
+            git commit -m "📡 Reddit 采集更新 $(date +%Y-%m-%d)"
+            git push
+            echo "✅ 已提交并推送"
+          fi

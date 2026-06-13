@@ -1,3 +1,5 @@
 site/
 .venv/
 __pycache__/
+
+_reddit_data/
