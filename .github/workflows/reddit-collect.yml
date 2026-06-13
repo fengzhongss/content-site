@@ -2,52 +2,61 @@ name: Reddit Daily Collection
 
 on:
   schedule:
-    # 每天 UTC 00:00 = 北京时间 08:00
     - cron: '0 0 * * *'
-  workflow_dispatch:  # 支持手动触发
+  workflow_dispatch:
 
 jobs:
   collect:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: \${{ secrets.GITHUB_TOKEN }}
       
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       
-      - name: Run Reddit collector
+      - name: Install dependencies
+        run: pip install beautifulsoup4 lxml
+      
+      - name: Run Reddit multi-community collector
         id: collect
-        run: |
-          python scripts/reddit-collect.py 2>&1
+        run: python scripts/reddit-collect.py 2>&1
         continue-on-error: true
       
-      - name: Check for new data
+      - name: Check new data by category
         id: check
         run: |
-          if ls _reddit_data/SomethingMakeThis/*.md 2>/dev/null; then
-            echo "new_data=true" >> $GITHUB_OUTPUT
-            count=$(ls _reddit_data/SomethingMakeThis/*.md 2>/dev/null | wc -l)
-            echo "count=$count" >> $GITHUB_OUTPUT
-            echo "📡 采集到 $count 篇新帖子"
+          report="# 📡 Reddit 信息采集日报 — $(date +%Y年%m月%d日)
+
+"
+          total=0
+          for dir in 反馈型 故事型 干货型 展示型; do
+            count=$(find _reddit_data/$dir -name "*.md" -newer .git -type f 2>/dev/null | wc -l)
+            if [ "$count" -gt 0 ]; then
+              # Get subreddit breakdown
+              subs=""
+              for subdir in $(ls _reddit_data/$dir/ 2>/dev/null); do
+                c=$(find _reddit_data/$dir/$subdir -name "*.md" -newer .git -type f 2>/dev/null | wc -l)
+                if [ "$c" -gt 0 ]; then
+                  subs="$subs $subdir($c篇)"
+                fi
+              done
+              report="$report **$dir：**$count篇$subs\n"
+              total=$((total + count))
+            fi
+          done
+          if [ "$total" -gt 0 ]; then
+            echo "new_data=true" >> \$GITHUB_OUTPUT
+            echo "count=$total" >> \$GITHUB_OUTPUT
+            printf "$report" > _reddit_data/reddit_report_$(date +%Y-%m-%d).md
+            echo -e "$report"
           else
-            echo "new_data=false" >> $GITHUB_OUTPUT
+            echo "new_data=false" >> \$GITHUB_OUTPUT
             echo "⏸️  无新帖子"
           fi
-      
-      - name: Generate daily report
-        if: steps.check.outputs.new_data == 'true'
-        run: |
-          cat > _reddit_data/reddit_report_$(date +%Y-%m-%d).md << 'EOF'
-          # 📡 Reddit 信息采集日报 — $(date +%Y年%m月%d日)
-          
-          共 ${{ steps.check.outputs.count }} 篇新帖子
-          EOF
       
       - name: Commit and push
         run: |
