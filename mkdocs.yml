@@ -145,9 +145,7 @@ nav:
   - 第②期作品: OPC板块/3-作品/第②期-OPC园区与社区生态专题报告.md
   - 第①期小红书: OPC板块/3-作品/第①期-OPC定义与服务_小红书版.md
   - 第②期小红书: OPC板块/3-作品/第②期-OPC园区与社区_小红书版.md
-exclude_docs:
-  - _reddit_data/ '模板/
-
+exclude_docs: |
+  _reddit_data/
+  模板/
   .obsidian/
-
-  '
