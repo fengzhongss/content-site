@@ -23,7 +23,7 @@ jobs:
       
       - name: Run Reddit multi-community collector
         id: collect
-        run: python scripts/reddit-collect.py --output docs/Reddit采集 2>&1
+        run: python scripts/reddit-collect.py --output _reddit_data 2>&1
         continue-on-error: true
       
       - name: Check new data by category
@@ -34,12 +34,12 @@ jobs:
 "
           total=0
           for dir in 反馈型 故事型 干货型 展示型; do
-            count=$(find docs/Reddit采集/$dir -name "*.md" -newer .git -type f 2>/dev/null | wc -l)
+            count=$(find _reddit_data/$dir -name "*.md" -newer .git -type f 2>/dev/null | wc -l)
             if [ "$count" -gt 0 ]; then
               # Get subreddit breakdown
               subs=""
-              for subdir in $(ls docs/Reddit采集/$dir/ 2>/dev/null); do
-                c=$(find docs/Reddit采集/$dir/$subdir -name "*.md" -newer .git -type f 2>/dev/null | wc -l)
+              for subdir in $(ls _reddit_data/$dir/ 2>/dev/null); do
+                c=$(find _reddit_data/$dir/$subdir -name "*.md" -newer .git -type f 2>/dev/null | wc -l)
                 if [ "$c" -gt 0 ]; then
                   subs="$subs $subdir($c篇)"
                 fi
@@ -51,7 +51,7 @@ jobs:
           if [ "$total" -gt 0 ]; then
             echo "new_data=true" >> \$GITHUB_OUTPUT
             echo "count=$total" >> \$GITHUB_OUTPUT
-            printf "$report" > docs/Reddit采集/reddit_report_$(date +%Y-%m-%d).md
+            printf "$report" > _reddit_data/reddit_report_$(date +%Y-%m-%d).md
             echo -e "$report"
           else
             echo "new_data=false" >> \$GITHUB_OUTPUT
@@ -62,7 +62,7 @@ jobs:
         run: |
           git config user.name "reddit-collector[bot]"
           git config user.email "reddit-collector@users.noreply.github.com"
-          git add docs/Reddit采集/
+          git add _reddit_data/
           if git diff --staged --quiet; then
             echo "⏸️  无变化，跳过提交"
           else
@@ -70,3 +70,9 @@ jobs:
             git push
             echo "✅ 已提交并推送"
           fi
+      
+      - name: Build and deploy to GitHub Pages
+        run: |
+          pip install mkdocs mkdocs-material
+          mkdocs gh-deploy --force
+          echo "✅ 网站已部署到 https://aimarvin.de5.net"

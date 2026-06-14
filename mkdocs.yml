@@ -112,12 +112,12 @@ nav:
         - 华南热门·小红书: 旅游板块/绿皮火车攻略/作品/华南/热门/小红书/华南绿皮火车热门线.md
         - 华南小众·公众号: 旅游板块/绿皮火车攻略/作品/华南/小众/公众号/华南绿皮火车小众线.md
         - 华南小众·小红书: 旅游板块/绿皮火车攻略/作品/华南/小众/小红书/华南绿皮火车小众线.md
-- 📡 Reddit采集:
-  - 总览: Reddit采集/index.md
-  - 💬 反馈型: Reddit采集/反馈型/index.md
-  - 📖 故事型: Reddit采集/故事型/index.md
-  - 🔧 干货型: Reddit采集/干货型/index.md
-  - 🎨 展示型: Reddit采集/展示型/index.md
+- 📡 Reddit分析:
+  - 总览: Reddit分析/index.md
+  - 💬 反馈型: Reddit分析/反馈型/index.md
+  - 📖 故事型: Reddit分析/故事型/index.md
+  - 🔧 干货型: Reddit分析/干货型/index.md
+  - 🎨 展示型: Reddit分析/展示型/index.md
 - 🛠️ 工具需求板块:
   - 总览: 工具需求板块/index.md
   - 📋 选题:
@@ -145,7 +145,8 @@ nav:
   - 第②期作品: OPC板块/3-作品/第②期-OPC园区与社区生态专题报告.md
   - 第①期小红书: OPC板块/3-作品/第①期-OPC定义与服务_小红书版.md
   - 第②期小红书: OPC板块/3-作品/第②期-OPC园区与社区_小红书版.md
-exclude_docs: '模板/
+exclude_docs:
+  - _reddit_data/ '模板/
 
   .obsidian/
 
