@@ -1,14 +1,57 @@
-# 反馈型 · Reddit 信息源
+# 反馈型
 
-> r/SideProject、r/microsaas — 用户直接喊'帮我做个XX工具'的社区，需求明确、即插即用。
+## SomethingMakeThis（139篇）
 
-## 采集规则
+- [2026-06-10 A-chrome-extension-that-helps-you-find-amazon-alternatives-a](SomethingMakeThis/2026-06-10_A-chrome-extension-that-helps-you-find-amazon-alternatives-a.md)
+- [2026-06-10 A-chrome-extension-that-helps-you-find-amazon-alternatives-a 1](SomethingMakeThis/2026-06-10_A-chrome-extension-that-helps-you-find-amazon-alternatives-a_1.md)
+- [2026-06-10 A-desktop-app-that-lets-you-semantically-search-your-own-fil](SomethingMakeThis/2026-06-10_A-desktop-app-that-lets-you-semantically-search-your-own-fil.md)
+- [2026-06-10 A-desktop-app-that-lets-you-semantically-search-your-own-fil 1](SomethingMakeThis/2026-06-10_A-desktop-app-that-lets-you-semantically-search-your-own-fil_1.md)
+- [2026-06-10 A-lightweight-client-only-Calendar-web-application-All-data-](SomethingMakeThis/2026-06-10_A-lightweight-client-only-Calendar-web-application-All-data-.md)
+- [2026-06-10 A-lightweight-client-only-Calendar-web-application-All-data- 1](SomethingMakeThis/2026-06-10_A-lightweight-client-only-Calendar-web-application-All-data-_1.md)
+- [2026-06-10 A-pillory-database-including-and-about-karma-farming-bots-an](SomethingMakeThis/2026-06-10_A-pillory-database-including-and-about-karma-farming-bots-an.md)
+- [2026-06-10 A-pillory-database-including-and-about-karma-farming-bots-an 1](SomethingMakeThis/2026-06-10_A-pillory-database-including-and-about-karma-farming-bots-an_1.md)
+- [2026-06-10 A-reverse-AI-chatbot-costumer-support-assistant](SomethingMakeThis/2026-06-10_A-reverse-AI-chatbot-costumer-support-assistant.md)
+- [2026-06-10 A-site-that-uses-ai-to-continuously-assess-rank-the-complete](SomethingMakeThis/2026-06-10_A-site-that-uses-ai-to-continuously-assess-rank-the-complete.md)
+- [2026-06-10 A-site-that-uses-ai-to-continuously-assess-rank-the-complete 1](SomethingMakeThis/2026-06-10_A-site-that-uses-ai-to-continuously-assess-rank-the-complete_1.md)
+- [2026-06-10 A-tool-that-gets-you-discounts-on-SaaS-s](SomethingMakeThis/2026-06-10_A-tool-that-gets-you-discounts-on-SaaS-s.md)
+- [2026-06-10 A-tool-that-gets-you-discounts-on-SaaS-s 1](SomethingMakeThis/2026-06-10_A-tool-that-gets-you-discounts-on-SaaS-s_1.md)
+- [2026-06-10 AI-playlist-creation-from-my-description](SomethingMakeThis/2026-06-10_AI-playlist-creation-from-my-description.md)
+- [2026-06-10 AI-playlist-creation-from-my-description 1](SomethingMakeThis/2026-06-10_AI-playlist-creation-from-my-description_1.md)
+- [2026-06-10 An-evolution-website-which-shows-a-fish-and-when-a-sliding-b](SomethingMakeThis/2026-06-10_An-evolution-website-which-shows-a-fish-and-when-a-sliding-b.md)
+- [2026-06-10 An-extension-like-SponsorBlock-for-Reddit-where-bots-are-ide](SomethingMakeThis/2026-06-10_An-extension-like-SponsorBlock-for-Reddit-where-bots-are-ide.md)
+- [2026-06-10 An-extension-like-SponsorBlock-for-Reddit-where-bots-are-ide 1](SomethingMakeThis/2026-06-10_An-extension-like-SponsorBlock-for-Reddit-where-bots-are-ide_1.md)
+- [2026-06-10 Browser-Extension-for-Improving-Etsy-Usability-and-Functiona](SomethingMakeThis/2026-06-10_Browser-Extension-for-Improving-Etsy-Usability-and-Functiona.md)
+- [2026-06-10 Browser-extension-SaaS-to-auto-block-repost-offenders-on-Red](SomethingMakeThis/2026-06-10_Browser-extension-SaaS-to-auto-block-repost-offenders-on-Red.md)
+- [2026-06-10 Building-a-chat-with-Database-web-app](SomethingMakeThis/2026-06-10_Building-a-chat-with-Database-web-app.md)
+- [2026-06-10 Building-a-chat-with-Database-web-app 1](SomethingMakeThis/2026-06-10_Building-a-chat-with-Database-web-app_1.md)
+- [2026-06-10 Built-a-YouTube-to-GIF-Chrome-extension-to-scratch-my-own-it](SomethingMakeThis/2026-06-10_Built-a-YouTube-to-GIF-Chrome-extension-to-scratch-my-own-it.md)
+- [2026-06-10 Built-a-YouTube-to-GIF-Chrome-extension-to-scratch-my-own-it 1](SomethingMakeThis/2026-06-10_Built-a-YouTube-to-GIF-Chrome-extension-to-scratch-my-own-it_1.md)
+- [2026-06-10 Built-a-free-live-hackathons-alert-bot-150-subscribers-in-fi](SomethingMakeThis/2026-06-10_Built-a-free-live-hackathons-alert-bot-150-subscribers-in-fi.md)
+- [2026-06-10 Built-a-free-live-hackathons-alert-bot-150-subscribers-in-fi 1](SomethingMakeThis/2026-06-10_Built-a-free-live-hackathons-alert-bot-150-subscribers-in-fi_1.md)
+- [2026-06-10 Built-an-AI-that-debugs-my-SaaS-for-me](SomethingMakeThis/2026-06-10_Built-an-AI-that-debugs-my-SaaS-for-me.md)
+- [2026-06-10 Built-an-AI-that-debugs-my-SaaS-for-me 1](SomethingMakeThis/2026-06-10_Built-an-AI-that-debugs-my-SaaS-for-me_1.md)
+- [2026-06-10 Can-Someone-Make-These-Surfboard-Shaping-Calipers](SomethingMakeThis/2026-06-10_Can-Someone-Make-These-Surfboard-Shaping-Calipers.md)
+- [2026-06-10 Can-Someone-Make-These-Surfboard-Shaping-Calipers 1](SomethingMakeThis/2026-06-10_Can-Someone-Make-These-Surfboard-Shaping-Calipers_1.md)
+- [2026-06-10 Chatbot-app-that-pays-you-back-money-every-time-it-makes-a-m](SomethingMakeThis/2026-06-10_Chatbot-app-that-pays-you-back-money-every-time-it-makes-a-m.md)
+- [2026-06-10 Chrome-extension-that-lets-you-right-click-any-highlighted-t](SomethingMakeThis/2026-06-10_Chrome-extension-that-lets-you-right-click-any-highlighted-t.md)
+- [2026-06-10 Chrome-extension-that-lets-you-right-click-any-highlighted-t 1](SomethingMakeThis/2026-06-10_Chrome-extension-that-lets-you-right-click-any-highlighted-t_1.md)
+- [2026-06-10 CottageLaw-Bot](SomethingMakeThis/2026-06-10_CottageLaw-Bot.md)
+- [2026-06-10 Enterprise-SaaS-Founders-Are-Security-Questionnaires-Still-K](SomethingMakeThis/2026-06-10_Enterprise-SaaS-Founders-Are-Security-Questionnaires-Still-K.md)
+- [2026-06-10 Enterprise-SaaS-Founders-Are-Security-Questionnaires-Still-K 1](SomethingMakeThis/2026-06-10_Enterprise-SaaS-Founders-Are-Security-Questionnaires-Still-K_1.md)
+- [2026-06-10 I-built-a-personal-finance-desktop-app-to-track-my-stocks-MF](SomethingMakeThis/2026-06-10_I-built-a-personal-finance-desktop-app-to-track-my-stocks-MF.md)
+- [2026-06-10 I-built-a-personal-finance-desktop-app-to-track-my-stocks-MF 1](SomethingMakeThis/2026-06-10_I-built-a-personal-finance-desktop-app-to-track-my-stocks-MF_1.md)
+- [2026-06-10 I-built-a-voice-Not-an-app-not-a-SaaS-my-actual-voice-And-50](SomethingMakeThis/2026-06-10_I-built-a-voice-Not-an-app-not-a-SaaS-my-actual-voice-And-50.md)
+- [2026-06-10 I-built-a-voice-Not-an-app-not-a-SaaS-my-actual-voice-And-50 1](SomethingMakeThis/2026-06-10_I-built-a-voice-Not-an-app-not-a-SaaS-my-actual-voice-And-50_1.md)
+- [2026-06-10 I-built-an-AI-tool-to-automate-my-TikTok-Reels-workflow-Free](SomethingMakeThis/2026-06-10_I-built-an-AI-tool-to-automate-my-TikTok-Reels-workflow-Free.md)
+- [2026-06-10 I-built-an-AI-tool-to-automate-my-TikTok-Reels-workflow-Free 1](SomethingMakeThis/2026-06-10_I-built-an-AI-tool-to-automate-my-TikTok-Reels-workflow-Free_1.md)
+- [2026-06-10 I-love-automating-PC-workflows-what-repetitive-tasks-do-you-](SomethingMakeThis/2026-06-10_I-love-automating-PC-workflows-what-repetitive-tasks-do-you-.md)
+- [2026-06-10 I-love-automating-PC-workflows-what-repetitive-tasks-do-you- 1](SomethingMakeThis/2026-06-10_I-love-automating-PC-workflows-what-repetitive-tasks-do-you-_1.md)
+- [2026-06-10 I-m-Building-a-Tool-That-Turns-Website-Into-a-Smart-Chatbot-](SomethingMakeThis/2026-06-10_I-m-Building-a-Tool-That-Turns-Website-Into-a-Smart-Chatbot-.md)
+- [2026-06-10 I-m-a-developer-looking-for-my-next-side-project-What-Chrome](SomethingMakeThis/2026-06-10_I-m-a-developer-looking-for-my-next-side-project-What-Chrome.md)
+- [2026-06-10 I-m-a-developer-looking-for-my-next-side-project-What-Chrome 1](SomethingMakeThis/2026-06-10_I-m-a-developer-looking-for-my-next-side-project-What-Chrome_1.md)
+- [2026-06-10 I-made-a-desktop-app-that-helps-me-write-blogs-with-AI-assis](SomethingMakeThis/2026-06-10_I-made-a-desktop-app-that-helps-me-write-blogs-with-AI-assis.md)
+- [2026-06-10 I-made-a-free-Chrome-extension-to-download-images-videos-fro](SomethingMakeThis/2026-06-10_I-made-a-free-Chrome-extension-to-download-images-videos-fro.md)
+- [2026-06-10 I-made-a-free-Chrome-extension-to-download-images-videos-fro 1](SomethingMakeThis/2026-06-10_I-made-a-free-Chrome-extension-to-download-images-videos-fro_1.md)
 
-每日由 GitHub Actions 自动采集，经情报官分析后归类到此。
+...共139篇，展示前50篇
 
-## 数据流向
-
-1. 🛰️ GitHub Actions 采集原始帖子
-2. 📥 同步到本地 Obsidian vault（`通用板块/素材库/Reddit采集/反馈型/`）
-3. 🔍 情报官分析 → 翻译/分类
-4. 🌐 发布到网站对应板块

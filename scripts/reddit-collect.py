@@ -24,7 +24,6 @@ COMMUNITIES = {
     "展示型": ["InternetIsBeautiful", "artificial"],
 }
 
-OUTPUT_ROOT = Path("_reddit_data")
 STATE_FILE = Path.home() / ".reddit_collect_state.json"
 
 HEADERS = {
@@ -38,6 +37,14 @@ INIT_LIMIT_PER_SUB = 30    # 初始化每个子社区最多
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger(__name__)
+
+# Parse command line args for output directory
+# Use simple argv parsing for flexibility
+OUTPUT_ROOT = Path("_reddit_data")
+if "--output" in sys.argv:
+    idx = sys.argv.index("--output")
+    if idx + 1 < len(sys.argv):
+        OUTPUT_ROOT = Path(sys.argv[idx + 1])
 
 def load_state():
     if STATE_FILE.exists():

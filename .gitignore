@@ -2,4 +2,6 @@ site/
 .venv/
 __pycache__/
 
+
+# Raw reddit collection data (output goes to docs/Reddit采集/ directly)
 _reddit_data/
