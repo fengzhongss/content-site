@@ -71,8 +71,4 @@ jobs:
             echo "✅ 已提交并推送"
           fi
       
-      - name: Build and deploy to GitHub Pages
-        run: |
-          pip install mkdocs mkdocs-material
-          mkdocs gh-deploy --force
-          echo "✅ 网站已部署到 https://aimarvin.de5.net"
+
